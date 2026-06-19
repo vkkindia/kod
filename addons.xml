@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-    <addon id="repository.vkkindia"
-           name="VKKindia Repository"
-           version="1.0.0"
-           provider-name="vkkindia">
-
-        <extension point="xbmc.addon.repository">
-            <dir>
-                <info compressed="false">https://vkkindia.github.io/addons.xml</info>
-                <checksum>https://vkkindia.github.io/addons.xml.md5</checksum>
-                <datadir zip="true">https://vkkindia.github.io/</datadir>
-            </dir>
-        </extension>
-
-        <extension point="xbmc.addon.metadata">
-            <summary>VKKindia Repository</summary>
-            <description>JioTV and Hotstar addons</description>
-            <platform>all</platform>
-        </extension>
-
-    </addon>
 
     <addon id="plugin.video.jiohotstar"
            name="Jio Hotstar"
